@@ -1,4 +1,5 @@
-package automake;
+package Test::Automake;
+
 our $VERSION = "0.1";
 BEGIN {
 	if ($ENV{srcdir}) {
@@ -12,12 +13,12 @@ BEGIN {
 
 =head1 NAME
 
-automake - Use Perl in your Automake distributions
+Test::Automake - Use Perl in your Automake tests
 
 =head1 SYNOPSIS
 
     #!/usr/bin/perl
-    use automake
+    use Test::Automake
     use Test::More;
     use t::common;
 

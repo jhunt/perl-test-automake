@@ -4,10 +4,10 @@ use warnings FATAL => 'all';
 use Module::Build;
 
 my $builder = Module::Build->new(
-    module_name         => 'automake',
+    module_name         => 'Test::Automake',
     license             => 'Artistic_2_0',
     dist_author         => q{James Hunt <james@jameshunt.us>},
-    dist_version_from   => 'lib/automake.pm',
+    dist_version_from   => 'lib/Test/Automake.pm',
     release_status      => 'stable',
     configure_requires => {
         'Module::Build' => 0,
@@ -19,7 +19,7 @@ my $builder = Module::Build->new(
         #'ABC'              => 1.6,
         #'Foo::Bar::Module' => 5.0401,
     },
-    add_to_cleanup     => [ 'automake-*' ],
+    add_to_cleanup     => [ 'test-automake-*' ],
     create_makefile_pl => 'traditional',
 );
 

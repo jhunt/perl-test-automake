@@ -12,21 +12,21 @@ SUPPORT AND DOCUMENTATION
 After installing, you can find documentation for this module with the
 perldoc command.
 
-    perldoc automake
+    perldoc Test-Automake
 
 You can also look for information at:
 
     RT, CPAN's request tracker (report bugs here)
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=automake
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Test-Automake
 
     AnnoCPAN, Annotated CPAN documentation
-        http://annocpan.org/dist/automake
+        http://annocpan.org/dist/Test-Automake
 
     CPAN Ratings
-        http://cpanratings.perl.org/d/automake
+        http://cpanratings.perl.org/d/Test-Automake
 
     Search CPAN
-        http://search.cpan.org/dist/automake/
+        http://search.cpan.org/dist/Test-Automake/
 
 
 LICENSE AND COPYRIGHT

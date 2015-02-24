@@ -1,4 +1,7 @@
-Revision history for automake
+Revision history for Test::Automake
+
+0.02    2015-02-24
+        - Renamed to Test::Automake
 
 0.01    2015-01-26
         - Initial release

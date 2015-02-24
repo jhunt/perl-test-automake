@@ -7,7 +7,7 @@ use Test::More;
 plan tests => 1;
 
 BEGIN {
-    use_ok( 'automake' ) || print "Bail out!\n";
+    use_ok( 'Test::Automake' ) || print "Bail out!\n";
 }
 
-diag( "Testing automake $automake::VERSION, Perl $], $^X" );
+diag( "Testing Test::Automake $Test::Automake::VERSION, Perl $], $^X" );
